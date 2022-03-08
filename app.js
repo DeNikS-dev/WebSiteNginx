@@ -2,9 +2,6 @@ const express = require('express')
 const expHbs = require('express-handlebars')
 require('dotenv').config()
 const Index = require('./routers/indexPage')
-const About = require('./routers/aboutPage')
-const Contact = require('./routers/contactPage')
-const Hello = require('./routers/helloPage')
 const app = express()
 
 const PORT = process.env.PORT

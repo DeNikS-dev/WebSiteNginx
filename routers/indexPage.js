@@ -5,8 +5,7 @@ indexRouter
     .route('/')
     .get((req, res)=>{
         res.render('index', {
-            title: 'Main page',
-            style: 'index.css'
+            title: 'Main page'
         })
     })
 
