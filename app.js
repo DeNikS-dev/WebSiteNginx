@@ -17,9 +17,6 @@ app.engine('hbs', hbs.engine)
 
 app.use(express.static('css'))
 app.use(Index)
-app.use(About)
-app.use(Contact)
-app.use(Hello)
 
 app.listen(PORT, ()=>{
     console.log(`Server start on ${PORT}`)
