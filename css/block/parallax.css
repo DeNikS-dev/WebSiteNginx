@@ -1,0 +1,30 @@
+.parallaxEF{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 1920px;
+    height: 500px;
+    position: relative;
+}
+.parallaxEF img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.overflow {
+    height: 80vh;
+}
+
+section h2{
+    color: white;
+    padding-top: 300px;
+}
+section h2 span{
+    background: rgba(34, 34, 34, 0.6);
+    border-radius: 10px;
+}
